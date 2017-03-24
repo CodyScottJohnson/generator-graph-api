@@ -67,6 +67,7 @@ module.exports = generators.extend({
       },
       appStaticFolders: function(){
         this.fs.copy(this.templatePath("api/server/endpoints"),this.destinationPath("api/server/endpoints"));
+        this.fs.copy(this.templatePath("api/server/models/graph"),this.destinationPath("api/server/models/graph"));
       }
     },
     conflicts: function(){

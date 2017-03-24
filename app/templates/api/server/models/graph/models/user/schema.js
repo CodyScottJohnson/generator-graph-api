@@ -5,7 +5,7 @@ import {
   GraphQLString,
   GraphQLList
 } from 'graphql';
-import db from '../../sql/index';
+import db from '../../../sql/index';
 
 export const User new GraphQLObjectType({
   name: 'User',
