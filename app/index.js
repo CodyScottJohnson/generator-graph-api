@@ -57,7 +57,7 @@ module.exports = generators.extend({
       },
       appStaticFiles: function(){
         this.fs.copy(this.templatePath("api/server/models/_index.js"),this.destinationPath("api/server/models/sql/index.js"));
-        this.fs.copy(this.templatePath("_docker-compose.yml"),this.destinationPath("docker-compose.yml"));
+        this.fs.copy(this.templatePath(".babelrc"),this.destinationPath(".babelrc"));
         this.fs.copyTpl(
             this.templatePath('_README.md'),
             this.destinationPath('README.md'), {

@@ -51,7 +51,7 @@ module.exports = generators.extend({
     },
     writing: function() {
         this.fs.copyTpl(
-            this.templatePath('_endpoint.js'),
+            this.templatePath('_'+this.modelType+'_endpoint.js'),
             this.destinationPath('api/server/models/sql/' + this.endpointName + '.js'), {
                 endpointName: this.endpointName
             }

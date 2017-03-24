@@ -1,6 +1,6 @@
-var fs        = require("fs");
-var path      = require("path");
-var Sequelize = require("sequelize");
+import fs from "fs";
+import path from "path";
+import Sequelize from "sequelize";
 
 var sql = new Sequelize('postgres://postgres@postgres:5432/dev');
 var db        = {};
