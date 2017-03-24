@@ -1,0 +1,17 @@
+{
+  "name": "generator-graph-api",
+  "version": "1.0.0",
+  "description": "A yeoman generator for creating node api's with graphql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cody Johnson",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "lodash": "^4.17.4",
+    "yeoman-generator": "^1.1.1",
+    "yosay": "^2.0.0"
+  }
+}
